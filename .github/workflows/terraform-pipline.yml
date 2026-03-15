@@ -27,7 +27,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v3
         with:
-          role-to-assume:arn:aws:iam::396890348114:instance-profile/Mye2role
+          role-to-assume:arn:aws:iam::396890348114:role/Mye2role
           aws-region: eu-north-1
 
       - name: Setup Terraform
